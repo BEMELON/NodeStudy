@@ -7,12 +7,12 @@ var getUser = function addUser(user) {
 }
 
 
-console.log('starting user1...');
+console.log('User1 Starting.....');
 var user1 = getUser('123');
 console.log('user1', user1);
 
 
-console.log('starting user2...');
+console.log('User2 Starting.....');
 var user2 = getUser('456');
 console.log('user2', user2);
 
