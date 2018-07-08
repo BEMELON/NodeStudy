@@ -20,7 +20,7 @@ Node.js is a JavaScript runtime built on `Chrome's V8 JavaScript engine.`
 (Precisely, Non-blocking-System blocks calling events(startadding user[i]), when events end, Node uses `callBack` function to execute the code.)     
 
 #Is this Multi-Thread?  
->No, Node.js is Single-Thread.  
+- No, Node.js is Single-Thread.  
  
 
 
