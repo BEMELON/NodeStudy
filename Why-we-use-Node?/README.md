@@ -1,5 +1,5 @@
 # What is node?  
-Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+Node.js is a JavaScript runtime built on `Chrome's V8 JavaScript engine.`
   
 ## Chrome's JavaScript engine?  
 >V8 Javascript engine is developed by google to be used with google-chrome.  
@@ -7,7 +7,7 @@ Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.
 >It is open source and written in C++.  
 
 # Why we need to use Node?  
->Node uses Non-Blocking System.  
+>Node uses `Non-Blocking System.`  
 >Node.js package ecosystem, npm is the largest ecosystem of open source libraries in the world. (It means node.js has a lot of modules) 
  
 ##Non-Blocking System?  
@@ -18,7 +18,7 @@ Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.
 
 #Is this Multi-Thread?  
 >No, Node.js is Single-Thread.  
->Do not confuse with Multi-Thread!  
+ 
 
 
 
