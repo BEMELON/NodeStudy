@@ -6,5 +6,5 @@
 
 # Trouble Shooting  
 
-&nbsp;$npsp;## It prints ${user.username} not my name.  
-$npsep;$npsp;$npsp;You must use back ticks (`) when using es6's template strings.
+## It prints ${user.username} not my name.  
+You must use back ticks (`) when using es6's template strings.
