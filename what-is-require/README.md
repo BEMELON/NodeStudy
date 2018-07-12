@@ -12,6 +12,10 @@
     return "new Note";  
  }
 ```
+# Using npm  
+ - we can serch modules on [Node.js](nodejs.org)  
+ - `npm install {moduleName}` installs modules  
+
 
 # Setting Package.json  
 - Package.json helps to installing package that installed in project.  
@@ -21,6 +25,7 @@
 
 -In package.json(package-lock.json) file there are version of our modules.      
 - `--save` Package will appear at package.json file.  
+- Please think which modules need `--save` options.
 > `npm install [module-name] -- save`  
 
 # Using Package.json  

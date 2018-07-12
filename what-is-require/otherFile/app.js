@@ -9,5 +9,5 @@ var res = notes.addNote();
 
 console.log(res);
 
-fs.appendFileSync('greetings.txt',`Hello, ${user.username}! You are ${notes.age}`);
+fs.appendFileSync('greetings.txt',`Hello World!, ${user.username}! You are ${notes.age}`);
 console.log('Result:', notes.add(9,-2));
