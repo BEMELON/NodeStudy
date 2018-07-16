@@ -4,6 +4,10 @@
 - argv is a arguments that pass by command line
 - we can process by `process.argv` but it is tooo complicated when we get extra inputs.    
 
+## JSON  
+ - JSON stands for JavaScript Object Notation.  
+ - It helps to access Data with simple method.  
+
 ### yarg Module  
  - yarg is a module that helps processing arguments passed by command lines.  
  - We can install by `npm install yarg --save`  
