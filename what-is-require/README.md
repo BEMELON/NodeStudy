@@ -11,7 +11,11 @@
     console.log('addNote');  
     return "new Note";  
  }
-```
+```  
+ When the statement is just a line, can omit brace.  
+ ```
+  var func = (string) => string === NULL;
+ ```
 # Using npm  
  - we can serch modules on [Node.js](nodejs.org)  
  - `npm install {moduleName}` installs modules  
