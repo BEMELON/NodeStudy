@@ -52,7 +52,7 @@
 > `npm install [module-name] -- save`  
 
 # Using Package.json  
-- npm install` installs all modules listed in package.json file.  
+- `npm install` installs all modules listed in package.json file.  
 
 # Trouble Shooting  
 	
