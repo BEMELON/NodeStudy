@@ -5,17 +5,36 @@
 - let us to use our own file.(Check otherFile folder)    
 
 # What is Arrow Function?
- > Now working....
+ > Now working...  
+ We can express our function just like below code.  
 ```
  module.exports.addNote = () => {  
     console.log('addNote');  
     return "new Note";  
  }
-```  
- When the statement is just a line, can omit brace.  
+```    
+ Also, when the statement is just a line,we can omit brace.  
+ We do not have to write `return` becuase it implicts `return` statement.  
+ 
  ```
   var func = (string) => string === NULL;
- ```
+ ```  
+ # What is Regular Function?  
+  - Regular function is similar as Arrow Function. But it seems to compensate for the shortcomings of Arrow functions.  
+  ## Shortcomings of Arrow functions??  
+    ```
+    var user = {
+      name : 'Melon',
+      sayHi: () => console.log(`Hi!, I'm ${this.name}`), // Hi I'm undefined
+      sayHiAlt () {
+          console.log(arguments);
+          console.log(`Hi, I'm ${this.name}`); // Hi, I'm Melon
+      }
+    ```
+    - Arrow functions can not use `this` or `arguments`.  
+ > In general if you don't need the `this` keyword or the `arguments` keyword you can use an arrow function.  
+ And I always prefer using Arrow function over Regular functions when I can.  
+
 # Using npm  
  - we can serch modules on [Node.js](nodejs.org)  
  - `npm install {moduleName}` installs modules  
