@@ -1,0 +1,16 @@
+// nested callBack function
+var getUser = (id, callback) => {
+    var user = {
+        id,
+        name: `Melon`
+    };
+
+    setTimeout(() => {
+        callback(user);
+    }, 3000);
+};
+
+getUser(31,(userObject) => {
+    console.log(userObject);
+});
+
