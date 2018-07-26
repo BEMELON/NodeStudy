@@ -23,6 +23,6 @@ var geocodeAddress = ((address, callback) => {
         } else {
             callback(body.status);
         }
-    })
+    });
 });
 module.exports.geocodeAddress = geocodeAddress;
