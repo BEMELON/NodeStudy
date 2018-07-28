@@ -8,4 +8,6 @@
  - 시간이 오래걸리는 작업에서 주로 사용하면 좋음
  - `app.use` 로 추가가 가능하고, 추가한 순서대로 실행이 됨으로 코드의 순서를 잘 봐주어야 한다.  
 
- 
+ ## hbs  
+  - Helps code's reuse.  
+  - can call with `{{> templeteName}}`  
