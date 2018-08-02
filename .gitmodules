@@ -1,0 +1,3 @@
+[submodule "NodeApplication"]
+	path = NodeApplication
+	url = https://github.com/BEMELON/NodeApplication.git
