@@ -1,8 +1,5 @@
 var getUser = function addUser(user, newFunc) {
-	for(var i = 0; i < 1000000000 ; i++) {
-		// something task
-	}
-
+    sleep(2)
 	newFunc(user);
 }
 
